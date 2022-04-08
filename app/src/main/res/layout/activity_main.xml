@@ -24,7 +24,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/bree_serif"
-        android:text="Sitt kvar på tåget"
+        android:text="Sitt kvar pÃ¥ tÃ¥get"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/imageView38"
@@ -37,7 +37,7 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/bree_serif"
-        android:text="Malmö C"
+        android:text="MalmÃ¶ C"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView53"
@@ -172,7 +172,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:fontFamily="@font/bree_serif"
-        android:text="Malmö C"
+        android:text="MalmÃ¶ C"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
@@ -201,7 +201,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/bree_serif"
-        android:text="Burlöv station"
+        android:text="BurlÃ¶v station"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
@@ -214,7 +214,7 @@
         android:layout_marginStart="90dp"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/bree_serif"
-        android:text="Malmö C"
+        android:text="MalmÃ¶ C"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView4"
@@ -226,12 +226,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="87dp"
         android:fontFamily="@font/bree_serif"
         android:text="12:24"
         android:textColor="#c1c2c7"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView10"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
@@ -242,12 +240,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="90dp"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="63dp"
         android:fontFamily="@font/bree_serif"
         android:text="12:57"
         android:textColor="#c1c2c7"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView16"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
@@ -268,7 +264,6 @@
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="340dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/bree_serif"
@@ -276,7 +271,6 @@
         android:textColor="#c1c2c7"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/alternativeButton"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
     <TextView
@@ -309,15 +303,13 @@
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="341dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="31dp"
         android:fontFamily="@font/bree_serif"
         android:text="581 m"
         android:textColor="#c1c2c7"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/alternativeButton"
-        app:layout_constraintStart_toStartOf="@+id/alternativeButton"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
     <androidx.constraintlayout.widget.Group
@@ -340,11 +332,9 @@
         android:id="@+id/imageView12"
         android:layout_width="25dp"
         android:layout_height="25dp"
-        android:layout_marginStart="310dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="5dp"
         app:layout_constraintEnd_toStartOf="@+id/textView28"
-        app:layout_constraintStart_toStartOf="@+id/alternativeButton"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@drawable/ic_baseline_access_time_24" />
 
@@ -375,7 +365,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/bree_serif"
-        android:text="Alternativ resväg"
+        android:text="Alternativ resvÃ¤g"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
@@ -448,7 +438,7 @@
         android:background="?android:attr/selectableItemBackground"
         android:clickable="true"
         android:fontFamily="@font/bree_serif"
-        android:text="Sök"
+        android:text="SÃ¶k"
         android:textColor="#C1C2C7"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
@@ -490,7 +480,7 @@
         android:layout_height="56dp"
         android:layout_marginStart="52dp"
         android:background="?android:attr/selectableItemBackground"
-        android:contentDescription="Sök resväg"
+        android:contentDescription="SÃ¶k resvÃ¤g"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar" />
 
@@ -522,7 +512,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/bree_serif"
-        android:text="Du befinner dig på Pågatåg 1765 mot Trelleborg C,\nmellan Åkarp och Burlöv"
+        android:text="Du befinner dig pÃ¥ PÃ¥gatÃ¥g 1765 mot Trelleborg C,\nmellan Ã…karp och BurlÃ¶v"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
@@ -534,14 +524,12 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="245dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="72dp"
-        android:layout_marginEnd="46dp"
         android:max="100"
         android:progress="33"
         android:progressTint="#247E03"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView43"
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
     <ImageView
@@ -560,11 +548,9 @@
         android:id="@+id/imageView16"
         android:layout_width="25dp"
         android:layout_height="25dp"
-        android:layout_marginStart="311dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="5dp"
         app:layout_constraintEnd_toStartOf="@+id/textView40"
-        app:layout_constraintStart_toStartOf="@+id/alternativeButton"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@drawable/ic_baseline_directions_walk_50" />
 
@@ -572,11 +558,9 @@
         android:id="@+id/imageView24"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:layout_marginStart="306dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="71dp"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintStart_toStartOf="@+id/alternativeButton"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@drawable/uncertainty" />
 
@@ -590,15 +574,5 @@
         app:iconTint="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="1dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/alternativeButton"
-        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_50" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

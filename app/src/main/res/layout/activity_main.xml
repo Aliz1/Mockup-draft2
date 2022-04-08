@@ -140,7 +140,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/rounded_box"
         android:fontFamily="@font/bree_serif"
         android:gravity="center"
@@ -417,18 +417,6 @@
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
         app:srcCompat="@drawable/ic_baseline_train_white_50" />
 
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="10dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:scaleType="fitCenter"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView3"
-        app:srcCompat="@drawable/ic_baseline_arrow_back_50" />
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
@@ -522,13 +510,15 @@
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="245dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="120dp"
         android:layout_marginTop="72dp"
+        android:layout_marginEnd="50dp"
         android:max="100"
         android:progress="33"
         android:progressTint="#247E03"
+        app:layout_constraintEnd_toEndOf="@+id/textView42"
         app:layout_constraintStart_toEndOf="@+id/textView43"
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
@@ -563,6 +553,16 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@drawable/uncertainty" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_50" />
 
     <Button
         android:id="@+id/alternativeButton"

@@ -27,7 +27,6 @@
         android:layout_marginTop="4dp"
         android:background="?android:attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:tint="#FFFFFF"
         app:layout_constraintStart_toStartOf="@+id/bottomAppBar"
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
         app:srcCompat="@drawable/ic_baseline_search_50" />
@@ -51,7 +50,6 @@
         android:layout_marginTop="4dp"
         android:background="?android:attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:tint="#C1C2C7"
         app:layout_constraintEnd_toStartOf="@+id/imageButton3"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
@@ -67,7 +65,7 @@
         android:clickable="true"
         android:fontFamily="@font/bree_serif"
         android:text="Sök"
-        android:textColor="#FFFFFF"
+        android:textColor="#C1C2C7"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
         app:layout_constraintStart_toStartOf="@+id/bottomAppBar" />
@@ -76,7 +74,7 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="304dp"
+        android:layout_marginEnd="30dp"
         android:layout_marginBottom="2dp"
         android:background="?android:attr/selectableItemBackground"
         android:fontFamily="@font/bree_serif"
@@ -84,20 +82,22 @@
         android:textColor="#C1C2C7"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
-        app:layout_constraintStart_toStartOf="@+id/bottomAppBar" />
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="178dp"
+        android:layout_marginEnd="180dp"
         android:layout_marginBottom="2dp"
         android:background="?android:attr/selectableItemBackground"
         android:fontFamily="@font/bree_serif"
         android:text="Din resa"
-        android:textColor="#c1c2c7"
+        android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
         app:layout_constraintStart_toStartOf="@+id/bottomAppBar" />
 
     <Button
@@ -114,19 +114,21 @@
         android:id="@+id/travelButton"
         android:layout_width="50dp"
         android:layout_height="56dp"
-        android:layout_marginStart="180dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="72dp"
         android:background="?android:attr/selectableItemBackground"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/informationButton"
+        app:layout_constraintStart_toEndOf="@+id/searchButton"
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar" />
 
     <Button
         android:id="@+id/informationButton"
         android:layout_width="75dp"
         android:layout_height="56dp"
-        android:layout_marginStart="304dp"
+        android:layout_marginEnd="32dp"
         android:background="?android:attr/selectableItemBackground"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -135,27 +137,29 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:background="@drawable/box"
         android:ems="10"
+        android:fontFamily="@font/bree_serif"
         android:gravity="center"
         android:hint="Sök hållplats"
         android:textColor="#FFFFFF"
         android:textColorHint="#C1C2C7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="10dp"
         android:background="@drawable/box"
         android:ems="10"
+        android:fontFamily="@font/bree_serif"
         android:gravity="center"
         android:hint="Sök hållplats"
         android:textColor="#FFFFFF"
@@ -163,7 +167,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <TextView
         android:id="@+id/textView6"
@@ -171,6 +175,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bree_serif"
         android:text="Från:"
         android:textColor="#C1C2C7"
         android:textSize="18sp"
@@ -184,6 +189,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bree_serif"
         android:text="Till:"
         android:textColor="#C1C2C7"
         android:textSize="18sp"
@@ -193,14 +199,16 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/box"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
         android:text="Vart vill du resa?"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

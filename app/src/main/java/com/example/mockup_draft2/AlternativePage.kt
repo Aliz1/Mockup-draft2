@@ -3,6 +3,7 @@ package com.example.mockup_draft2
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 
 class AlternativePage : AppCompatActivity() {
@@ -21,6 +22,12 @@ class AlternativePage : AppCompatActivity() {
         val searchButtonClick = findViewById<Button>(R.id.searchButton)
         searchButtonClick.setOnClickListener {
             val intent = Intent(this, SearchPage::class.java)
+            startActivity(intent)
+        }
+
+        val backButtonClick = findViewById<ImageButton>(R.id.button_back)
+        backButtonClick.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 

@@ -50,7 +50,7 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/bree_serif"
-        android:text="\??:??"
+        android:text="\13:20"
         android:textColor="#c1c2c7"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView53"
@@ -61,9 +61,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="15dp"
         android:fontFamily="@font/bree_serif"
-        android:text="\?? min"
+        android:text="\ 1h 9min"
         android:textColor="#c1c2c7"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView38"
@@ -88,7 +88,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="3dp"
         android:fontFamily="@font/bree_serif"
-        android:text="11:54"
+        android:text="12:09"
         android:textColor="#c1c2c7"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/imageView38"
@@ -101,7 +101,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="20dp"
         android:rotation="180"
-        android:tint="#FFFFFF"
+        app:tint="#FFFFFF"
         app:layout_constraintEnd_toStartOf="@+id/textView54"
         app:layout_constraintTop_toTopOf="@+id/imageView38"
         app:srcCompat="@drawable/ic_baseline_arrow_back_50" />
@@ -130,7 +130,7 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -227,7 +227,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/bree_serif"
-        android:text="12:24"
+        android:text="12:12"
         android:textColor="#c1c2c7"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
@@ -267,7 +267,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/bree_serif"
-        android:text="33 min"
+        android:text="45 min"
         android:textColor="#c1c2c7"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -496,11 +496,11 @@
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="wrap_content"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/bree_serif"
-        android:text="Du befinner dig på Pågatåg 1765 mot Trelleborg C,\nmellan Åkarp och Burlöv"
+        android:text="Du befinner dig på Pågatåg 1765 mot Trelleborg C,\nmellan Åkarp och Burlöv.\n\nDin nuvarande resa har en försening innan Malmö C.\nVänligen välj ett alternativ nedan för att ankomma till destinationen."
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
@@ -574,5 +574,95 @@
         app:iconTint="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/star2"
+        app:layout_constraintTop_toTopOf="@+id/alternativeButton"
+        app:srcCompat="@drawable/ic_baseline_star_50" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/star3"
+        app:layout_constraintTop_toTopOf="@+id/alternativeButton"
+        app:srcCompat="@drawable/ic_baseline_star_50" />
+
+    <ImageView
+        android:id="@+id/star3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/star4"
+        app:layout_constraintTop_toTopOf="@+id/alternativeButton"
+        app:srcCompat="@drawable/ic_baseline_star_50" />
+
+    <ImageView
+        android:id="@+id/star4"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/star_outline"
+        app:layout_constraintTop_toTopOf="@+id/alternativeButton"
+        app:srcCompat="@drawable/ic_baseline_star_50" />
+
+    <ImageView
+        android:id="@+id/star5"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/star_outline4"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/ic_baseline_star_50" />
+
+    <ImageView
+        android:id="@+id/star6"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/star5"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/ic_baseline_star_50" />
+
+    <ImageView
+        android:id="@+id/star_outline"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/alternativeButton"
+        app:srcCompat="@drawable/ic_baseline_star_border_50" />
+
+    <ImageView
+        android:id="@+id/star_outline2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/ic_baseline_star_border_50" />
+
+    <ImageView
+        android:id="@+id/star_outline3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/star_outline2"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/ic_baseline_star_border_50" />
+
+    <ImageView
+        android:id="@+id/star_outline4"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/star_outline3"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/ic_baseline_star_border_50" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="@color/primaryColor"
     android:clickable="true"
     tools:context=".MainActivity">
 
@@ -25,7 +25,7 @@
         android:layout_marginTop="25dp"
         android:fontFamily="@font/bree_serif"
         android:text="Sitt kvar på tåget"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/imageView38"
         app:layout_constraintTop_toTopOf="@+id/imageView38" />
@@ -38,7 +38,7 @@
         android:layout_marginTop="25dp"
         android:fontFamily="@font/bree_serif"
         android:text="Malmö C"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView53"
         app:layout_constraintTop_toTopOf="@+id/imageView38" />
@@ -51,7 +51,7 @@
         android:layout_marginTop="50dp"
         android:fontFamily="@font/bree_serif"
         android:text="\13:20"
-        android:textColor="#c1c2c7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView53"
         app:layout_constraintTop_toTopOf="@+id/imageView38" />
@@ -64,7 +64,7 @@
         android:layout_marginEnd="15dp"
         android:fontFamily="@font/bree_serif"
         android:text="\ 1h 9min"
-        android:textColor="#c1c2c7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView38"
         app:layout_constraintTop_toTopOf="@+id/imageView38" />
@@ -76,6 +76,7 @@
         android:layout_marginStart="313dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="5dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/textView56"
         app:layout_constraintStart_toStartOf="@+id/imageView38"
         app:layout_constraintTop_toTopOf="@+id/imageView38"
@@ -89,7 +90,7 @@
         android:layout_marginTop="3dp"
         android:fontFamily="@font/bree_serif"
         android:text="12:09"
-        android:textColor="#c1c2c7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/imageView38"
         app:layout_constraintTop_toBottomOf="@+id/textView53" />
@@ -101,7 +102,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="20dp"
         android:rotation="180"
-        app:tint="#FFFFFF"
+        app:tint="@color/textColor"
         app:layout_constraintEnd_toStartOf="@+id/textView54"
         app:layout_constraintTop_toTopOf="@+id/imageView38"
         app:srcCompat="@drawable/ic_baseline_arrow_back_50" />
@@ -113,6 +114,7 @@
         android:layout_marginStart="313dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/textView56"
         app:layout_constraintStart_toStartOf="@+id/imageView38"
         app:layout_constraintTop_toTopOf="@+id/imageView38"
@@ -146,7 +148,7 @@
         android:gravity="center"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -159,7 +161,7 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/bree_serif"
         android:text="Lund C"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="parent"
@@ -173,7 +175,7 @@
         android:layout_marginEnd="50dp"
         android:fontFamily="@font/bree_serif"
         android:text="Malmö C"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView" />
@@ -187,7 +189,7 @@
         android:gravity="center"
         android:text="Vald resa"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -202,7 +204,7 @@
         android:layout_marginTop="25dp"
         android:fontFamily="@font/bree_serif"
         android:text="Burlöv station"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
@@ -215,7 +217,7 @@
         android:layout_marginTop="25dp"
         android:fontFamily="@font/bree_serif"
         android:text="Malmö C"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
@@ -228,7 +230,7 @@
         android:layout_marginTop="50dp"
         android:fontFamily="@font/bree_serif"
         android:text="12:12"
-        android:textColor="#c1c2c7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
@@ -242,7 +244,7 @@
         android:layout_marginTop="50dp"
         android:fontFamily="@font/bree_serif"
         android:text="12:57"
-        android:textColor="#c1c2c7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
@@ -255,7 +257,7 @@
         android:layout_marginTop="69dp"
         android:fontFamily="@font/bree_serif"
         android:text="16 min"
-        android:textColor="#C1C2C7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView" />
@@ -268,7 +270,7 @@
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/bree_serif"
         android:text="45 min"
-        android:textColor="#c1c2c7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
@@ -281,7 +283,7 @@
         android:layout_marginTop="50dp"
         android:fontFamily="@font/bree_serif"
         android:text="12:04"
-        android:textColor="#c1c2c7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView" />
@@ -294,7 +296,7 @@
         android:layout_marginEnd="76dp"
         android:fontFamily="@font/bree_serif"
         android:text="12:20"
-        android:textColor="#c1c2c7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView" />
@@ -307,7 +309,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="@font/bree_serif"
         android:text="581 m"
-        android:textColor="#c1c2c7"
+        android:textColor="@color/altTextColor"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
@@ -324,6 +326,7 @@
         android:layout_height="25dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="66dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView"
         app:srcCompat="@drawable/ic_baseline_access_time_24" />
@@ -334,6 +337,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="5dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/textView28"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@drawable/ic_baseline_access_time_24" />
@@ -344,7 +348,7 @@
         android:layout_height="40dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="24dp"
-        android:tint="#FFFFFF"
+        app:tint="@color/textColor"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView"
         app:srcCompat="@drawable/ic_baseline_train_50" />
@@ -366,7 +370,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/bree_serif"
         android:text="Alternativ resväg"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="@+id/imageView5" />
@@ -377,7 +381,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:backgroundTint="@color/dark_gray"
+        android:backgroundTint="@color/backgroundColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -389,6 +393,7 @@
         android:layout_marginTop="4dp"
         android:background="?android:attr/selectableItemBackground"
         android:scaleType="fitCenter"
+        app:tint="@color/altTextColor"
         app:layout_constraintStart_toStartOf="@+id/bottomAppBar"
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
         app:srcCompat="@drawable/ic_baseline_search_50" />
@@ -401,6 +406,7 @@
         android:layout_marginEnd="60dp"
         android:background="?android:attr/selectableItemBackground"
         android:scaleType="fitCenter"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
         app:srcCompat="@drawable/ic_baseline_info_50" />
@@ -412,6 +418,7 @@
         android:layout_marginTop="4dp"
         android:background="?android:attr/selectableItemBackground"
         android:scaleType="fitCenter"
+        app:tint="@color/chosenTextColor"
         app:layout_constraintEnd_toStartOf="@+id/imageButton3"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
@@ -427,7 +434,7 @@
         android:clickable="true"
         android:fontFamily="@font/bree_serif"
         android:text="Sök"
-        android:textColor="#C1C2C7"
+        android:textColor="@color/altTextColor"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
         app:layout_constraintStart_toStartOf="@+id/bottomAppBar" />
@@ -441,7 +448,7 @@
         android:background="?android:attr/selectableItemBackground"
         android:fontFamily="@font/bree_serif"
         android:text="Information"
-        android:textColor="#C1C2C7"
+        android:textColor="@color/altTextColor"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
         app:layout_constraintEnd_toEndOf="@+id/bottomAppBar" />
@@ -456,7 +463,7 @@
         android:background="?android:attr/selectableItemBackground"
         android:fontFamily="@font/bree_serif"
         android:text="Din resa"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/chosenTextColor"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
         app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
@@ -501,7 +508,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/bree_serif"
         android:text="Du befinner dig på Pågatåg 1765 mot Trelleborg C,\nmellan Åkarp och Burlöv.\n\nDin nuvarande resa har en försening innan Malmö C.\nVänligen välj ett alternativ nedan för att ankomma till destinationen."
-        android:textColor="#FFFFFF"
+        android:textColor="@color/textColor"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
@@ -528,7 +535,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:rotation="180"
-        android:tint="#FFFFFF"
+        app:tint="@color/textColor"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
@@ -540,6 +547,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="5dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/textView40"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@drawable/ic_baseline_directions_walk_50" />
@@ -550,6 +558,7 @@
         android:layout_height="35dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="71dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@drawable/uncertainty" />
@@ -560,6 +569,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="1dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_50" />
@@ -580,6 +590,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/star2"
         app:layout_constraintTop_toTopOf="@+id/alternativeButton"
         app:srcCompat="@drawable/ic_baseline_star_50" />
@@ -589,6 +600,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/star3"
         app:layout_constraintTop_toTopOf="@+id/alternativeButton"
         app:srcCompat="@drawable/ic_baseline_star_50" />
@@ -598,6 +610,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/star4"
         app:layout_constraintTop_toTopOf="@+id/alternativeButton"
         app:srcCompat="@drawable/ic_baseline_star_50" />
@@ -607,6 +620,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/star_outline"
         app:layout_constraintTop_toTopOf="@+id/alternativeButton"
         app:srcCompat="@drawable/ic_baseline_star_50" />
@@ -616,6 +630,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/star_outline4"
         app:layout_constraintTop_toTopOf="@+id/imageView38"
         app:srcCompat="@drawable/ic_baseline_star_50" />
@@ -625,6 +640,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/star5"
         app:layout_constraintTop_toTopOf="@+id/imageView38"
         app:srcCompat="@drawable/ic_baseline_star_50" />
@@ -634,6 +650,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/alternativeButton"
         app:srcCompat="@drawable/ic_baseline_star_border_50" />
@@ -643,6 +660,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView38"
         app:srcCompat="@drawable/ic_baseline_star_border_50" />
@@ -652,6 +670,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/star_outline2"
         app:layout_constraintTop_toTopOf="@+id/imageView38"
         app:srcCompat="@drawable/ic_baseline_star_border_50" />
@@ -661,6 +680,7 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginTop="22dp"
+        app:tint="@color/altTextColor"
         app:layout_constraintEnd_toStartOf="@+id/star_outline3"
         app:layout_constraintTop_toTopOf="@+id/imageView38"
         app:srcCompat="@drawable/ic_baseline_star_border_50" />

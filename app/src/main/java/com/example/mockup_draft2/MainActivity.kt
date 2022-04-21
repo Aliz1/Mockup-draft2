@@ -6,9 +6,17 @@ import android.os.Bundle
 import android.view.Window
 import android.widget.Button
 import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        //Check if dark mode
+        if (AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES) {
+            setTheme(R.style.Theme_Mockupdraft2)
+        }
+
+
         super.onCreate(savedInstanceState)
 //        requestWindowFeature(Window.FEATURE_NO_TITLE)
         supportActionBar?.hide()

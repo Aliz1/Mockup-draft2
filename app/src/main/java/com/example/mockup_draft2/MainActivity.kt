@@ -8,6 +8,9 @@ import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         if (AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES) {
             setTheme(R.style.Theme_Mockupdraft2)
         }
-
 
         super.onCreate(savedInstanceState)
 //        requestWindowFeature(Window.FEATURE_NO_TITLE)

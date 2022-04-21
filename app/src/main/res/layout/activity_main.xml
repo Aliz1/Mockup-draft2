@@ -505,11 +505,12 @@
         android:id="@+id/textView16"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginBottom="19dp"
         android:fontFamily="@font/bree_serif"
         android:text="Du befinner dig på Pågatåg 1765 mot Trelleborg C,\nmellan Åkarp och Burlöv.\n\nDin nuvarande resa har en försening innan Malmö C.\nVänligen välj ett alternativ nedan för att ankomma till destinationen."
         android:textColor="@color/textColor"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3" />

@@ -46,7 +46,7 @@
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="220dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
         app:srcCompat="@drawable/rounded_box" />
@@ -65,7 +65,9 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginTop="34dp"
+        android:layout_marginBottom="37dp"
         android:clickable="false"
+        app:layout_constraintBottom_toTopOf="@+id/bottomAppBar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
         app:srcCompat="@drawable/rounded_box" />
@@ -87,10 +89,12 @@
         android:layout_height="25dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="6dp"
-        app:tint="@color/altTextColor"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/ic_baseline_swap_horizontal_circle_50" />
+        app:srcCompat="@drawable/ic_baseline_swap_horizontal_circle_50"
+        app:tint="@color/altTextColor" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -98,10 +102,12 @@
         android:layout_height="25dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="6dp"
-        app:tint="@color/altTextColor"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:srcCompat="@drawable/ic_baseline_swap_horizontal_circle_50" />
+        app:srcCompat="@drawable/ic_baseline_swap_horizontal_circle_50"
+        app:tint="@color/altTextColor" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -337,10 +343,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
         android:fontFamily="@font/bree_serif"
         android:text="Byte till buss"
         android:textColor="@color/altTextColor"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -350,10 +358,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
         android:fontFamily="@font/bree_serif"
         android:text="Byte till buss"
         android:textColor="@color/altTextColor"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
@@ -415,10 +425,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
         android:layout_marginEnd="24dp"
+        android:layout_marginBottom="6dp"
         android:fontFamily="@font/bree_serif"
         android:text="3 min"
         android:textColor="@color/altTextColor"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
@@ -473,7 +485,6 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView18" />
-
 
 
     <com.google.android.material.bottomappbar.BottomAppBar
@@ -601,5 +612,20 @@
         app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
         app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="402dp"
+        android:layout_height="183dp"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.185"
+        app:srcCompat="@drawable/map_light" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
